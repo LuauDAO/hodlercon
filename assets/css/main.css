@@ -71,6 +71,17 @@ input, select, textarea {
 	appearance: none;
 }
 
+#beachbums {
+	display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	margin: 0 0 2em 0;
+}
+
+#beachbums img {
+    width: 100%;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2671,6 +2682,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		flex-wrap: wrap;
 		cursor: default;
 		list-style: none;
 		margin-left: -1em;
@@ -2678,7 +2690,7 @@ input, select, textarea {
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1em;
+			padding: 0 0 1em 1em;
 			vertical-align: middle;
 		}
 
@@ -3491,7 +3503,7 @@ input, select, textarea {
 						border: 0;
 						color: rgba(255, 255, 255, 0.35);
 						display: inline-block;
-						font-size: 0.6em;
+						font-size: 0.8em;
 						font-weight: bold;
 						letter-spacing: 0.25em;
 						text-transform: uppercase;
