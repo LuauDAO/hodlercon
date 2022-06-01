@@ -82,6 +82,32 @@ input, select, textarea {
     width: 100%;
 }
 
+.sponsors {
+	font-size: small;
+}
+
+.sponsors span {
+	clear: both;
+	display: block;
+}
+
+@media screen and (max-width: 1280px) {
+	.sponsors span {
+		display: none;
+	}
+
+	.sponsors img {
+		margin-left: 20px !important;
+	}
+}
+
+.sponsors img {
+	max-width: 24%;
+	max-height: 50%;
+	display: inline-block;
+	margin: 10px;
+}
+
 /* Basic */
 
 	@-ms-viewport {
