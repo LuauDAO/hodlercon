@@ -355,7 +355,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/main.js"></script>
 
 		<!-- BG -->
-		<!-- Really hacky way to lazy load massive background image on slow connections or else nothing renders for 10+ seconds. Under script tags so $ is defined. I hate this template. -->
+		<!-- Really hacky way to lazy load massive background image on slow connections or else nothing renders for 10+ seconds. Under script tags so $ is defined as native window onload doesn't work. I hate this template. -->
 		<div id="bg2">
 			<script>
 				$( window ).on( "load", function () {
