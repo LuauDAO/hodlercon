@@ -27,29 +27,20 @@
 			<div id="wrapper">
 
 				<style>
-					.bands {
-						display: flex;
-						justify-content: space-around;
+					#hodlercon-video {
+						position: fixed;
+						top: 0px;
+						right: 0px;
+						margin: 5px;
 					}
-					.priceband {
-						text-align: center;
-					}
-					.priceband span {
-						font-size: xx-large;
-					}
-					.content .inner .bands .priceband span {
-						font-size: x-large;
-					}
-						.priceband span::after{
-							content: "\a";
-							white-space: pre;
-						}
+
 					@media screen and (max-width: 736px) {
-						.bands {
-							display: block;
-							justify-content: inherit;
+						#hodlercon-video {
+							position: inherit;
 						}
 					}
+
+					
 				</style>
 
 				<!-- Header -->
@@ -62,13 +53,9 @@
 						<div class="content">
 							<div class="inner">
 								<h1>HodlerCon 2024</h1>
-								<p>A convention for those of us stubborn enough to stick around during these crypto winters.<br/>Come celebrate the good times somewhere warm with us in 2024!</p>
-								<p>The votes are in! Here are the HodlerCon location winners for each price band:</p>
-								<div class="bands">
-									<p class="priceband"><span><a href="#details">Los Cabos</a></span>$0 - $1,400</p>
-									<p class="priceband"><span><a href="#details">Thailand</a></span>$1,401 - $4,800</p>
-									<p class="priceband"><span><a href="#details">Fiji</a></span>$4,801 - $31,250</p>
-								</div>
+								<p>A convention for those of us stubborn enough to stick around during these crypto winters.<br/>Come celebrate the good times with us!</p>
+								<p style="font-size: larger;">HodlerCon is headed to <strong>Thailand</strong> in Summer 2024!</p>
+								<p>The price of ETH on June 15, 2023 was inside of the $1,400 - $4,800 price band set for Thailand. Further details such as the specific date, hotels, and activities are being discussed in the <a href="https://discord.com/invite/XS4bnxVawj">HodlerCon Discord</a>. If you have any input or just want to chat with your fellow beach bums come on in and join the party!</p>
 							</div>
 						</div>
 						<nav>
@@ -78,40 +65,24 @@
 								<li><a href="#history">History</a></li>
 								<li><a href="https://discord.com/invite/XS4bnxVawj">Join Discord</a></li>
 								<li><a href="https://forms.gle/fzM6CJZUQiHj1ija9" target="_new">Sponsor HodlerCon</a></li>
-								
 							</ul>
 						</nav>
 					</header>
+
 				<!-- Main -->
 					<div id="main">
 
 						<!-- Details -->
 							<article id="details" style="display: none; width: 60rem;">
-								<h2 class="major">HodlerCon 2024 Locations</h2>
-								<p>The location of HodlerCon 2024 will be determined by the price of ETH on June 15, 2023. Listed below are the vote winners for each price band. <a href="#votechoices">View full list of locations that were previously up for votes</a>.</p>
+								<h2 class="major">HodlerCon 2024 Details</h2>
+								<p>HodlerCon will be held in Thailand in the summer of 2024. Details are still being finalized. The location was determined by the price of ETH on June 15th, 2023. <a href="#votechoices">View the full list of locations that were previously up for voting</a>.</p>
 
-								<h3 class="major">Possible Locations</h3>
-								<div class="bands">
-									<p class="priceband"><span><a href="#cabos">Los Cabos</a></span>$0 - $1,400</p>
-									<p class="priceband"><span><a href="#thailand">Thailand</a></span>$1,401 - $4,800</p>
-									<p class="priceband"><span><a href="#fiji">Fiji</a></span>$4,801 - $31,250</p>
-								</div>
 								
-								<h3 class="major">Price Band $0 - $1,400</h3>
-								<p id="cabos"><img src="images/locations/cabos1.png" loading="lazy" style="width: 100%;"><br>
-									<img src="images/locations/cabos2.png" loading="lazy" style="width: 100%;">&nbsp;</p>
-
-								<h3 class="major">Price Band $1,401 - $4,800</h3>
-								<p id="thailand"><img src="images/locations/thailand1.png" loading="lazy" style="width: 100%;"><br>
-									<img src="images/locations/thailand2.png" loading="lazy" style="width: 100%;">&nbsp;</p>
-								<h3 class="major">Price Band $4,801 - $31,250</h3>
-								<p id="fiji"><img src="images/locations/fiji1.png" loading="lazy" style="width: 100%;"><br>
-									<img src="images/locations/fiji2.png" loading="lazy" style="width: 100%;">&nbsp;</p>
 							</article>
 
 							<article id="votechoices" style="display: none; width: 60rem;">
 								<h2 class="major">HodlerCon 2024 Locations</h2>
-								<p>The location of HodlerCon 2024 will be determined by the price of ETH on June 15, 2023. Listed below are a few options for each price range. Beach Bum hodlers will use <a href="https://en.wikipedia.org/wiki/Ranked_voting" target="_blank">ranked choice voting</a> to vote for one location in each price band until March 17th and the final location will be determined by which price band the ETH price falls in on June 15, 2023.</p>
+								<p>The location of HodlerCon 2024 was determined by the price of ETH on June 15, 2023. Listed below are a the options for each price range. Beach Bum hodlers used <a href="https://en.wikipedia.org/wiki/Ranked_voting" target="_blank">ranked choice voting</a> to vote for one location in each price band.</p>
 								
 								<h3 class="major" style="clear: both;">$0 - $1,400</h3>
 								<p id="jt"><img src="images/locations/jt1.png" loading="lazy" style="width: 100%;"><br>
@@ -156,254 +127,17 @@
 								<p><a href="/2022/">Archived version of HodlerCon 2022</a></p>
 							</article>
 
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
-
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-
-								<section>
-									<h3 class="major">Lists</h3>
-
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
 						<p class="copyright">&copy; Luau DAO</p>
 					</footer>
+
+					<div id="hodlercon-video" style="text-align: center;">
+						<iframe src="https://www.youtube.com/embed/r38E8vqKCfg?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<p style="margin: 0px;"><a href="https://songaday.world/auction/4865/" target="_new">HodlerCon by Jonathan Mann</a></p>
+					</div>
 
 			</div>
 
